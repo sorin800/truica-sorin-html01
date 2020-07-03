@@ -1,0 +1,52 @@
+.pixeltab {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: calc(100vh - 70px);
+  border-top: 1px solid #000;
+  height: 70px;
+  transition: top .3s linear;
+}
+
+.pixeltab--expanded {
+  top: 50vh;
+}
+
+.pixeltab__controls {
+  position: absolute;
+  right: 0;
+  top: -53px;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+.pixeltab__content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.hello-band {
+  text-align: center;
+}
+
+.unit-result {
+  margin: 10px 0;
+}
+
+.unit-result--passed {
+  color: green;
+}
+
+.unit-result--failed {
+  color: red;
+}
+
+.pixelad {
+  border: 1px solid #000;
+  width: 300px;
+  height: 300px;
+}
+
