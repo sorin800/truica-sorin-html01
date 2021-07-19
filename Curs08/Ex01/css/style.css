@@ -1,0 +1,9 @@
+h2 {
+  text-shadow: 2px 2px 5px yellow;
+  font-weight: normal;
+}
+
+p b {
+  color: yellow;
+  text-decoration: underline;
+}

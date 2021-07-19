@@ -1,0 +1,12 @@
+i {
+  color: red;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
