@@ -4,14 +4,12 @@
   border: 1px solid #000;
   margin: 25px 0;
   position: relative;
-
-  display: flex;
 }
 
 .stage .title {
   position: absolute;
-  top: 5px; 
-  right: 5px
+  top: 5px;
+  right: 5px;
 }
 
 .item {
@@ -21,3 +19,20 @@
   border: 1px solid red;
 }
 
+.stage-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-02 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.stage-03 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

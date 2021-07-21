@@ -1,4 +1,56 @@
+body {
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+}
+
+.nav-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  z-index: 1;
+  padding: 15px;
+}
+
+.nav-top a {
+  color: white;
+}
+
+.nav-bottom {
+  background-color: green;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.container .legend {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  top: -10px;
+  left: 10px;
+  background-color: gray;
+  border: 1px solid red;
+}
+
+.sub {
+  font-size: 10px;
+  position: relative;
+  bottom: -2px;
 }

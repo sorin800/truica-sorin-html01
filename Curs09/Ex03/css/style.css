@@ -1,5 +1,5 @@
 .card {
-  width: 80%; 
+  width: 80%;
   margin: 25px auto;
   border: 1px solid #000;
   overflow: hidden;
@@ -9,3 +9,22 @@
   float: left;
 }
 
+.orientation-left img {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.orientation-right img {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.card .float-left {
+  float: none;
+}
