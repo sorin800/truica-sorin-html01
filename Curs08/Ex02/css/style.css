@@ -115,8 +115,14 @@
   font-display: swap;
 }
 
-body {
+h1 {
+  color: red;
+  font-size: 35px;
   font-family: 'Julius Sans One';
+}
+
+body {
+  font-family: 'Roboto';
 }
 
 h3 {
@@ -128,4 +134,26 @@ h3 {
 ol a {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+ul li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: green;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Julius Sans One';
+  color: purple;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+p {
+  line-height: 23px;
 }

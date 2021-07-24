@@ -27,3 +27,38 @@
   padding-bottom: 11px;
   padding-left: 20px;
 }
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 21px;
+}
+
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding: 13px 19px;
+  margin: 0 auto;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.transparent {
+  width: 300px;
+  border: 2px solid red;
+  padding: 20px;
+  margin: 20px auto;
+}
