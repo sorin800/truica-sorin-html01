@@ -1,0 +1,12 @@
+p i {
+  position: relative;
+}
+
+p:hover i {
+  left: 2px;
+  top: -2px;
+}
+
+.secondary a:hover {
+  text-decoration: overline;
+}

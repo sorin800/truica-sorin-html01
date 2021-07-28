@@ -1,0 +1,25 @@
+.my-first-list a {
+  display: block;
+}
+
+/* .my-first-list a::before {
+  content: '🤠';
+} */
+
+.my-first-list a::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: purple;
+}
+
+.my-first-list a::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}

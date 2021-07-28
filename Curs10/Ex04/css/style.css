@@ -25,6 +25,6 @@ ul ~ p {
   padding: 20px;
 }
 
-ul > li {
+ul > li > ul > li {
   text-decoration: underline;
 }
