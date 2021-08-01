@@ -6,6 +6,7 @@
 
 .box-red {
   background-color: red;
+  transition: width 3s linear;
 }
 
 .box-green {
@@ -23,10 +24,13 @@
 
 .box-brown {
   background-color: brown;
+  /* tranzitioneaza cu ease-in peste 4 secunde cu rotatie de -180 grade si scalare la 0.5 */
+  transition: transform ease-in 4s;
 }
 
 .box-yellow {
   background-color: yellow;
+  transition: transform 3s ease-in-out;
 }
 
 /* REST OF CODE HERE */
@@ -38,4 +42,16 @@
   width: 100px;
   height: 100px;
   background-color: red;
+}
+
+.box-red:hover {
+  width: 120px;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }

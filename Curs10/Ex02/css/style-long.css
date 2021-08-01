@@ -7,7 +7,8 @@
   margin-right: 20px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
 }
 /* don't touch this */
@@ -122,5 +123,5 @@ ul, ol {
   padding-top: 3px;
   padding-right: 3px;
   padding-bottom: 3px;
-  padding-left:3px;
+  padding-left: 3px;
 }
