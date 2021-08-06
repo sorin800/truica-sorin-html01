@@ -1,63 +1,9 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-    url('../fonts/Roboto-Medium.woff') format('woff');
-  font-weight: 500;
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-    url('../fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-    url('../fonts/Roboto-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-    url('../fonts/Roboto-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -72,9 +18,27 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-    url('../fonts/Roboto-Black.woff') format('woff');
-  font-weight: 900;
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -90,9 +54,18 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-    url('../fonts/Roboto-Thin.woff') format('woff');
+  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
   font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -102,6 +75,33 @@
   src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
     url('../fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
@@ -245,11 +245,11 @@ body {
 .container {
   width: 100%;
   max-width: 1284px;
-  margin: 0 auto; /* 0 verticala, auto orizontala */
+  margin: 0 auto;
 }
 
 .header {
-  margin-top: 30px;
+  margin: 30px auto;
 }
 
 .header-top .header-contact {
@@ -286,6 +286,7 @@ body {
   text-decoration: none;
   font-size: 24px;
 }
+
 .header-top .user-controls a .icon {
   margin-left: 8px;
 }
@@ -345,6 +346,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   padding: 6px 12px;
+  border-radius: 20px;
   transition: background-color 0.2s linear, color 0.5s linear;
 }
 
@@ -370,6 +372,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #707070;
+  font-weight: 300;
   font-size: 14px;
   transition: color 0.2s linear;
 }
@@ -387,6 +390,10 @@ body {
   min-height: 322px;
   margin-bottom: 22px;
   font-weight: 300;
+}
+
+.footer-top .footer-nav {
+  display: flex;
 }
 
 .footer-top .footer-nav ul {
@@ -445,16 +452,12 @@ body {
 
 .footer-top .footer-contact h2 {
   font-size: 16px;
-  margin-bottom: 4px;
   text-transform: uppercase;
+  margin-bottom: 4px;
 }
 
 .footer-top .footer-contact h2 span {
   font-weight: 500;
-}
-
-.footer-top .footer-nav {
-  display: flex;
 }
 
 .footer-bottom {
@@ -466,17 +469,283 @@ body {
   margin-bottom: 16px;
 }
 
+.content-header {
+  background: #000 url('../images/banners/banner-01.jpg') no-repeat center
+    center;
+  background-size: cover;
+  height: 572px;
+  margin-bottom: 90px;
+}
+
+.content-header-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.content-header-inner > div {
+  text-align: center;
+}
+
+.content-header-inner h1 {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.content-header-inner h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin: 15px 0 40px 0;
+}
+
+.content-header-inner p {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 300;
+  bottom: 40px;
+}
+
+.content-header-inner .banner-cta {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff6b6b;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid #ff6b6b;
+  padding: 23px 40px;
+  border-radius: 35px;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.content-header-inner .banner-cta:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
 .content-main header {
   text-align: center;
 }
 
-.content-main header h1 {
+.content-main > section {
+  margin-bottom: 90px;
+}
+
+.content-main > section > header {
+  margin-bottom: 40px;
+}
+
+.content-main > section > header h1 {
   font-size: 30px;
   font-weight: 300;
   color: #000;
+  margin-bottom: 16px;
 }
 
-.content-main header h1 span {
+.content-main > section > header h1 span {
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.content-main header p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.catalog-preview .product-tiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.catalog-preview > footer {
+  text-align: center;
+}
+
+.catalog-preview > footer a {
+  text-transform: lowercase;
+  color: #707070;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog-preview > footer a::before {
+  display: inline-block;
+  background-color: #ff6b6b;
+  width: 20px;
+  height: 1px;
+  content: '';
+  margin-right: 20px;
+  transition: width 0.5s ease-in;
+}
+
+.catalog-preview > footer a::after {
+  display: inline-block;
+  background-color: #ff6b6b;
+  width: 20px;
+  height: 1px;
+  content: '';
+  margin-left: 20px;
+  transition: width 0.5s ease-in;
+}
+
+.catalog-preview > footer a:hover::before,
+.catalog-preview > footer a:hover::after {
+  width: 120px;
+}
+
+.product-tile {
+  width: 27.386541%;
+  /* 350*100/1278 */
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-details {
+  margin: 30px 0 20px 0;
+}
+
+.product-tile .product-tile-details a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 300;
+}
+
+.product-tile .product-title {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.product-tile .product-title span {
+  font-weight: 500;
+}
+
+.product-tile .product-title span:nth-child(1) {
+  color: #000;
+}
+
+.product-tile .product-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.product-tile .product-tile-pricing {
+  font-weight: 300;
+}
+
+.product-tile .product-tile-pricing .product-catalog-price {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+  text-decoration: line-through;
+}
+
+.product-tile .product-tile-pricing .product-price {
+  font-size: 24px;
+}
+
+.product-tile .product-tile-pricing .product-price > span {
+  font-weight: 500;
+  color: #ff6b6b;
+}
+
+.product-tile .product-tile-controls {
+  text-align: center;
+}
+
+.product-tile .product-tile-controls .a2c {
+  background: transparent;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  border-radius: 35px;
+  font-size: 16px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+/* add everythging  */
+.home-cta a {
+  min-height: 236px;
+  display: flex;
+  background: transparent url('../images/banners/banner-04.jpg') no-repeat
+    center center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  color: #fff;
+  padding: 0 60px 0 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home-cta a > span:first-child {
+  font-size: 26px;
+  line-height: 27px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.home-cta a > span:nth-child(2) {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.home-cta a > span:nth-child(2) > span {
+  font-weight: 300;
+}
+
+.home-social header {
+  margin-bottom: 40px;
+}
+
+.home-social ul {
+  text-align: center;
+}
+
+.home-social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.home-social a {
+  color: #363636;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #363636;
+  display: inline-flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.home-payment header {
+  margin-bottom: 40px;
+}
+
+.home-payment ul {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.home-payment li {
+  display: inline-block;
+  margin: 0 5px 5px 5px;
 }
