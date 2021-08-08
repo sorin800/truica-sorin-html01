@@ -189,6 +189,31 @@ body {
   margin-top: 20px;
 }
 
+.header-controls > form {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+
+.header-controls > form input {
+  padding-left: 25px;
+  border: none;
+}
+
+.header-controls > form input:focus {
+  outline: none;
+}
+
+.header-controls > form button {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: transparent;
+  border: none;
+}
+
 .header-controls .user-controls ul {
   text-decoration: none;
 }
@@ -222,8 +247,8 @@ body {
 }
 
 .nav-primary ul li {
-  padding: 12px;
-  margin-top: 5px;
+  padding: 0 12px;
+  margin-top: 18px;
 }
 
 .nav-primary ul li a {
@@ -244,6 +269,19 @@ body {
   color: #2b2b2b;
   text-transform: uppercase;
   font-weight: bold;
+  border-top: 1px solid #cccccc;
+  padding-top: 15px;
+}
+
+.catalog-preview-all header h1 {
+  margin-top: 35px;
+  font-size: 35px;
+  text-align: center;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid #cccccc;
+  padding-top: 15px;
 }
 
 .product-tile-image-container {
@@ -257,6 +295,7 @@ body {
 }
 
 .product-tile {
+  width: 21%;
   margin-top: 42px;
   text-align: center;
   font-weight: bold;
@@ -272,6 +311,10 @@ body {
   font-size: 22px;
   margin-top: 10px;
   margin-bottom: 80px;
+}
+
+.product-tile-image img {
+  width: 100%;
 }
 
 .product-tile-image a:nth-child(2) i {
@@ -338,7 +381,7 @@ body {
 .footer-container {
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   font-weight: 500;
 }
